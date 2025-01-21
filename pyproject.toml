@@ -1,0 +1,18 @@
+[project]
+name = "wigle"
+version = "0.1.0"
+description = "A Python library for WiGLE API"
+readme = "README.md"
+authors = [{ name = "Yibo Wei", email = "david_wyb2001@outlook.com" }]
+requires-python = ">=3.12"
+dependencies = [
+    "httpx>=0.28.1",
+    "pydantic>=2.10.5",
+]
+
+[project.scripts]
+wigle = "wigle:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

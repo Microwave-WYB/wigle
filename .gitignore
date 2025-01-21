@@ -1,0 +1,8 @@
+.venv
+.vscode
+__pycache__
+.python-version
+*.csv
+*.ipynb
+*.pdf
+*.sqlite3
